@@ -43,5 +43,5 @@ void draw() {
         rect(gap * (i+1) + cellsize * i, gap * (j+1) + cellsize * j, cellsize, cellsize);
       }
     }
-} //end of draw 
+} 
 
