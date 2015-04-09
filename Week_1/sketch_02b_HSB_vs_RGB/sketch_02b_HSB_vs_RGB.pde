@@ -3,6 +3,8 @@ RGB vs HSB
 Why or when would we want to use these?
 */
 
+float newHue = 0;
+
 void setup() {  // use setup to set your screen properties and declare stuff once
   size(500, 500);
 }
@@ -15,7 +17,7 @@ void draw() {  // a looping space that runs your program
   
   // shifting degree's and percentages of brightness and contrast
   colorMode(HSB,360,100,100);
-  fill(360,99,0); 
+  fill(0,99, 0); 
   stroke(360,99,99);
   ellipse(250, 250, 250, 250);
   

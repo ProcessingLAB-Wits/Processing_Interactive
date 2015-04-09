@@ -29,12 +29,11 @@ void draw() {
     stroke(170); // set the stroke colour to a light grey
     fill(0, 150); // set the fill colour to black with transparency
     rect(mouseX, mouseY, random(6), random(50));
-  }
-
+  } 
 
   // save your drawing when you press keyboard 's'
   if (keyPressed == true && key=='s') {
-    saveFrame("yourName.jpg");
+    saveFrame("mydrawing.jpg");
   }
 
   // erase your drawing when you press keyboard 'r'
