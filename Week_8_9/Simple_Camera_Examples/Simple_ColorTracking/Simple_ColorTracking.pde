@@ -57,6 +57,7 @@ void draw() {
       float r1 = red(currentColor);
       float g1 = green(currentColor);
       float b1 = blue(currentColor);
+      
       float r2 = red(trackColor);
       float g2 = green(trackColor);
       float b2 = blue(trackColor);
