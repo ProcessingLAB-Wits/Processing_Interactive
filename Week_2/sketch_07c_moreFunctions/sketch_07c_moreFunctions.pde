@@ -15,9 +15,9 @@ void setup() {
 
 
 void draw() {
-  background(180);
+  //background(180);
   noStroke();
-
+ 
   int num = 5;
   int margin = 80;
 
@@ -53,4 +53,3 @@ void movingCircle(float x, float y, float size, float angle) {
   stroke(255, 0, 0);
   line(x, y, tempX, tempY); // red line
 }
-

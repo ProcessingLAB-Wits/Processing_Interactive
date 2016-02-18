@@ -15,14 +15,15 @@ void draw() {
   
   noFill();
   rectMode(CENTER);
+  
 for (int i = 0; i < 14; i++){
-pushMatrix();
-translate(width/2, height/2);
-rotate(rAngle);  
-rect(-50, 0, 80, 20);  
-popMatrix();
-float div = map(mouseX, 0.0, 500.0, 0.0, 0.5);
-rAngle = rAngle + div;
+  pushMatrix();
+    translate(width/2, height/2);
+    rotate(rAngle);  
+    rect(-50, 0, 80, 20);  
+  popMatrix();
+  float div = map(mouseX, 0.0, 500.0, 0.0, 0.5);
+  rAngle = rAngle + div;
 }
 
 strokeWeight(2);
@@ -39,6 +40,3 @@ rAngle = rAngle + div;
 rAngle = 0.0;
 
 }
-
-
-

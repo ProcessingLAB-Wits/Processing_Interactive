@@ -24,7 +24,7 @@ void setup() {
   noStroke();
 
   // change the value of caseNum from 1 to 2 to execute different parts of the code
-  caseNum = 1;
+  caseNum = 2;
 }
 
 
@@ -88,4 +88,3 @@ void keyPressed(){
   }
   
 }
-

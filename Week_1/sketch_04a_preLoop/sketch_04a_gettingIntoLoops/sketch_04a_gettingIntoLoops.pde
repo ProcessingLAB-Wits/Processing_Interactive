@@ -8,7 +8,7 @@
 void setup() {
   size(600, 600);
   background(180);
-  noLoop();  // only execute the draw function once
+  //noLoop();  // only execute the draw function once
   rectMode(CENTER); // set the rectangle drawing mode to specify the rectangle's centre
   noStroke();
 }
@@ -42,4 +42,3 @@ void draw() {
   }
   
 } // end draw
-
