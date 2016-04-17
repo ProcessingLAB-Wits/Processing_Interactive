@@ -6,7 +6,7 @@
  * 
  */
 
-int     num;    // the number of items in the array (# of circles)
+int num;    // the number of items in the array (# of circles)
 float[] y;      // y-position of each circle (fixed)
 float[] speed;  // speed of each circle
 float[] phase;  // phase of each circle
@@ -17,7 +17,6 @@ float blue = 120;
 
 void setup() {
   size(500, 500);
-
   num = 5;
 
   // declare basic value to iniciate the arrays to num 
@@ -33,7 +32,10 @@ void setup() {
     y[i] = gap * (i + 1);      // y is constant for each so can be calculated once
     speed[i] = random(10);
     phase[i] = random(TWO_PI);
+    
   }
+  println(speed[3]);
+  println(phase[0]);
 }
 
 
@@ -54,4 +56,3 @@ void mouseDragged() {
   green = map(mouseY, 0, height, 0, 255);
   blue = map(mouseX+mouseY, 0, width+height, 255, 0);
 }
-

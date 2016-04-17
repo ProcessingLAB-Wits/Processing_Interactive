@@ -17,6 +17,7 @@ void setup() {
     xpos[i] = 0; 
     ypos[i] = 0;
   }
+  println(xpos);
 }
 
 void draw() {

@@ -6,11 +6,15 @@
 // 4. After looking at arrays, lets make an array of cars
 
 Car myCar; // Declare car object as a globle variable.
+Car newCar;
 
 void setup() {
   size(480, 270);
   // Initialize car object in setup() by calling constructor.
-  myCar = new Car();
+  myCar = new Car(10, 100, 50);
+  newCar = new Car(100, 200, 100);
+  //myCar.xpos = 20;
+  //myCar.ypos = 100;
 }
 
 void draw() {
@@ -19,44 +23,6 @@ void draw() {
   // object methods using the dot syntax.
   myCar.move(); 
   myCar.display();
-}
-
-// Define a class outside of setup and draw.
-class Car { 
-  // Variables.
-  color c; 
-  float xpos;
-  float ypos;
-  float xspeed;
-  float cWidth; // added
-  float cHeight; //added
-
-  // A constructor.
-  Car() { 
-    c = color(175);
-    xpos = width/2;
-    ypos = height/2;
-    xspeed = 1;
-    cWidth = 60;
-    cHeight = cWidth/2;
-  }
-
-  // Function.
-  void display() { 
-    // The car is just a square
-    rectMode(CENTER);
-    stroke(0);
-    fill(c);
-    rect(xpos, ypos, cWidth, cHeight);
-    ellipse(xpos+cWidth*0.3, ypos+cHeight/2, cHeight/2, cHeight/2); // added
-    ellipse(xpos-cWidth*0.3, ypos+cHeight/2, cHeight/2, cHeight/2); // added
-  }
-
-  // Function.  
-  void move() { 
-    xpos += xspeed;
-    if (xpos > width) {
-      xpos = 0;
-    }
-  }
+  //newCar.move(); 
+  newCar.display();
 }
