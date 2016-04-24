@@ -1,0 +1,20 @@
+    1323	[INFO]	XnLog.cpp	173	Log system initialized. Console: 1, File: 1, Severity: ERROR, Masks: ALL
+    1379	[INFO]	XnLog.cpp	173	Log system initialized. Console: 1, File: 1, Severity: ERROR, Masks: ALL
+503659534	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 14: Failed to re-submit asynch I/O transfer (err=-99)!
+503659564	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 15: Failed to re-submit asynch I/O transfer (err=-4)!
+503659577	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 0: Failed to re-submit asynch I/O transfer (err=-4)!
+503659587	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 1: Failed to re-submit asynch I/O transfer (err=-4)!
+503659595	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 2: Failed to re-submit asynch I/O transfer (err=-4)!
+503659604	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 3: Failed to re-submit asynch I/O transfer (err=-4)!
+503659613	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 4: Failed to re-submit asynch I/O transfer (err=-4)!
+503659621	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 5: Failed to re-submit asynch I/O transfer (err=-4)!
+503659630	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 6: Failed to re-submit asynch I/O transfer (err=-4)!
+503659639	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 7: Failed to re-submit asynch I/O transfer (err=-4)!
+503659647	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 8: Failed to re-submit asynch I/O transfer (err=-4)!
+503659656	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 9: Failed to re-submit asynch I/O transfer (err=-4)!
+503659668	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 10: Failed to re-submit asynch I/O transfer (err=-4)!
+503659677	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 11: Failed to re-submit asynch I/O transfer (err=-4)!
+503659685	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 12: Failed to re-submit asynch I/O transfer (err=-4)!
+503659694	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 13: Failed to re-submit asynch I/O transfer (err=-4)!
+503659702	[ERROR]	XnUSBLinux-x86.cpp	1088	Endpoint 0x82, Buffer 14: Failed to re-submit asynch I/O transfer (err=-4)!
+503760380	[ERROR]	XnUSBLinux-x86.cpp	1011	Endpoint 0x82, Buffer 15: Failed to cancel asynch I/O transfer (err=-4)!
