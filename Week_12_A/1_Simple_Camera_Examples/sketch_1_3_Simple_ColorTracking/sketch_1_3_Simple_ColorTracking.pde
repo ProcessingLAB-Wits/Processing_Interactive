@@ -64,7 +64,6 @@ void draw() {
 
       // Using euclidean distance to compare colors
       float d = dist(r1,g1,b1,r2,g2,b2); // We are using the dist( ) function to compare the current color with the color we are tracking.
-
       // If current color is more similar to tracked color than
       // closest color, save current location and current difference
       if (d < worldRecord) {
