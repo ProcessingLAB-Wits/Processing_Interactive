@@ -1,3 +1,0 @@
-     246	[INFO]	XnLog.cpp	173	Log system initialized. Console: 1, File: 1, Severity: ERROR, Masks: ALL
-     300	[INFO]	XnLog.cpp	173	Log system initialized. Console: 1, File: 1, Severity: ERROR, Masks: ALL
-11353871	[ERROR]	XnHostProtocol.cpp	692	Get version failed: USB transfer timeout!
