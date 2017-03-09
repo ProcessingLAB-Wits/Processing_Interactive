@@ -10,6 +10,6 @@ int spacing = 10; // How far apart is each line
 int len = 20;     // Length of each line
 
 // Translation of the legs while loop to a for loop.
-for (int x = 10; x <= 150; x += spacing) { 
+for (int x = 10; x <= width; x += spacing) { 
   line(x,y,x,y + len);
 }

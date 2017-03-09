@@ -6,6 +6,7 @@
   int carH = 50;
   int carX = 100;
   int carY = 100;
+  int carSpeed = 2;
 
 void setup() {
   size(400, 200);
@@ -21,4 +22,9 @@ void draw() {
   //wheels
   fill(0);
   ellipse(carX + carW*0.2, carY+carH, carW/4, carW/4);
+  ellipse(carX + carW*0.8, carY+carH, carW/4, carW/4);
+  carX = carX + carSpeed;
+  if (carX > width || carX < 0-carW){
+    carSpeed = carSpeed*-1;
+  }
 }

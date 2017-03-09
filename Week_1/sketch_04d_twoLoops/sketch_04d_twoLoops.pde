@@ -40,19 +40,19 @@ void draw() {
     // row 1
     fill(255, 0, 0);
     for (int i=0; i<num; i++) {
-      rect(150 + 150*i, 150, 100, 100);
+      rect(150+150*i, 150, 100, 100);
     }
 
     // row 2
     fill(0, 255, 0);
     for (int i=0; i<num; i++) {
-      rect(150 + 150*i, 300, 100, 100);
+      rect(150+150*i, 300, 100, 100);
     }
 
     // row 3
     fill(0, 0, 255);
     for (int i=0; i<num; i++) {
-      rect(150 + 150*i, 450, 100, 100);
+      rect(150+150*i, 450, 100, 100);
     }
     
   } else if (caseNum == 2) {
